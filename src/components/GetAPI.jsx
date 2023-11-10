@@ -1,5 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { Centralizer } from "./GetAPI.style";
+import { StylizedIcon } from "./GetAPI.style";
+import { IconDiv } from "./GetAPI.style";
 
 export default function GetAPI() {
   const [error, setError] = useState(null);
@@ -41,15 +44,27 @@ export default function GetAPI() {
   };
 
   if (error) {
-    return <div>Algo deu errado : {error.message}</div>;
+    return (
+      <Centralizer>
+        <h2>Algo deu errado : {error.message}</h2>
+      </Centralizer>
+    );
   } else if (!isLoaded) {
-    return <div>Está carregnando!</div>;
+    return (
+      <Centralizer>
+        <h2>Está carregando!</h2>
+      </Centralizer>
+    );
   } else {
     return (
-      <>
-        <div>{slip.slip.advice}</div>
-        <button onClick={handleReload}></button>
-      </>
+      <Centralizer>
+        <h2>{slip.slip.advice}</h2>
+        <button onClick={handleReload}>
+          <IconDiv>
+            <StylizedIcon />
+          </IconDiv>
+        </button>
+      </Centralizer>
     );
   }
 }

@@ -1,12 +1,10 @@
-# React + Vite
+# YTNYH
+## É um projeto criado por mim mesmo para colocar em prática os meus conhecimentos adquiridos durante o meu estudo.
+### clique aqui para ver o site(https://tynth-williamfelipe7.vercel.app/)
+### Projeto feito usando as tecnológias:
+- React
+- Html
+- Styled components
+### Imagem ilustrativa:
 
-
-![image](https://github.com/willf7/TYNTH/assets/125326310/511278b0-a342-4786-9466-a268059409bc)
-
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/willf7/MSPORTS/assets/125326310/d3c2903c-df5a-45c7-8d2b-98770926dcd8)

@@ -7,4 +7,4 @@
 - Styled components
 ### Imagem ilustrativa:
 
-![image](https://github.com/willf7/MSPORTS/assets/125326310/d3c2903c-df5a-45c7-8d2b-98770926dcd8)
+![image](https://github.com/willf7/TYNTH/assets/125326310/511278b0-a342-4786-9466-a268059409bc)
